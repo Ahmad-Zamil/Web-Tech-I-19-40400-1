@@ -1,0 +1,39 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-image: url(Z-5.jpg);
+	background-size: cover; 
+}
+#main-menu
+{
+color: white;
+background-color: #e1b12c;
+
+}
+.a{
+	width: 450px;
+	padding: 40px;
+	text-align: center;
+	margin: auto;
+	margin-top: 5%;
+	color: #f5f6fa;
+	font-family: 'Century Gothic', sans-serif;
+	
+}
+.b
+{
+	border-radius: 50%;
+	width: 200px;
+	height: 200px; 
+}
+.c{
+	width: 400px;
+	padding: 30px;
+	text-align: center;
+	margin: auto;
+	margin-top: 0%;
+	color: #f5f6fa;
+	font-family: 'Century Gothic', sans-serif;
+	
+}
