@@ -7,21 +7,21 @@ $product = fetchProduct( $_GET['id']);
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Add </title>
+	<title>EDIT PRODUCT </title>
 </head>
 <body>
 
 <form action="controller/editProduct.php?id=<?php echo $_GET['id'] ?>" method="post" enctype="multipart/form-data">
-  <fieldset>
+  <fieldset align = "center">
 <legend><b>Edit Product</b></legend> 
 <br>
-  <meta>Name:</meta>
+  <meta><b>Name:</b></meta>
   <input type="text" name="name" value="<?php echo $product['Name']; ?> " > 
   <br>
-  <meta>Buying Price:</meta>
+  <meta><b>Buying Price:</b></meta>
   <input type="text" name="buyingPrice" value="<?php echo $product['BuyingPrice']; ?> " > 
   <br>
-  <meta>Selling Price:</meta>
+  <meta><b>Selling Price:</b></meta>
   <input type="text" name="sellingPrice" value="<?php echo $product['SellingPrice']; ?> " > 
   <br>
   

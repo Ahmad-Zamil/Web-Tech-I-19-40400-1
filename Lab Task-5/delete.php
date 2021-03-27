@@ -15,16 +15,16 @@ $product = fetchProduct($_GET['id']);
 	<fieldset align = "center">
 <legend><b>Delete Product</b></legend> <br>
 <form action="controller/deleteProduct.php?id=<?php echo $_GET['id'] ?>" method="post" enctype="multipart/form-data">
- <meta>Name:</meta>
+ <meta><b>Name:</b></meta>
  <?php echo $product['Name']; ?> 
  <hr>
- <meta>Buying Price:</meta>
+ <meta><b>Buying Price:</b></meta>
  <?php echo $product['BuyingPrice']; ?> 
  <hr>
- <meta>Selling Price:</meta>
+ <meta><b>Selling Price:</b></meta>
  <?php echo $product['SellingPrice']; ?> 
  <hr>
- <meta>Displayable:</meta>
+ <meta><b>Displayable:</b></meta>
  
 <?php echo $product['Display']; ?>
 <hr>

@@ -7,18 +7,20 @@ $products = fetchAllProducts();
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>DISPLAY</title>
 	<style>
 	table, th, td {
-  	border: 2px solid black;}
+  	border: 2px solid black;
+  	border-spacing: 10px;
+    }
 	
 	
 </style>
 </head>
 <body>
-<fieldset>
-	<legend>Display</legend>
-<table>
+<fieldset align = "center">
+	<legend><b>Display</b></legend>
+<table align = "center">
 	<thead>
 		<tr>
 			<th>Name</th>
